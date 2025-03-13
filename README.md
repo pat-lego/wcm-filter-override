@@ -6,8 +6,8 @@ This will override the WCM Filter in the JVM and allow for the EDIT field to be 
 
 The main parts of the template are:
 
-* [core:](core/README.md) Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
-* [ui.config:] JCR package containing all the OSGi configs needed
+* core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
+* ui.config: JCR package containing all the OSGi configs needed
 
 ## How to build
 
