@@ -21,3 +21,7 @@ To build all the modules run in the project root directory the following command
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+
+## Known Issues
+
+- Leaving the current filter as is may cause issues downstream with other URLs a recommendation would be to only use [specific URL's](https://sling.apache.org/documentation/the-sling-engine/filters.html) (i.e EngineConstants.SLING_FILTER_PATTERN + "=/mnt/overlay/wcm/core/content/sites/.*")
